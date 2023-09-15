@@ -1,0 +1,75 @@
+ERROR - 2023-07-08 17:56:57 --> mysqli_sql_exception: Unknown column 'dpt' in 'field list' in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT SUM(`dpt...', 0)
+#1 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`dpt...')
+#2 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`dpt...')
+#3 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`dpt...', Array, false)
+#4 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Model.php(203): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/BaseModel.php(557): CodeIgniter\Model->doFind(false, NULL)
+#6 /Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Kecamatan.php(24): CodeIgniter\BaseModel->find()
+#7 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Kecamatan->index('17')
+#8 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#9 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/ofin/Dataku/_ Project/israfil/server/public/index.php(75): CodeIgniter\CodeIgniter->run()
+#11 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dat...')
+#12 {main}
+CRITICAL - 2023-07-08 17:56:57 --> Unknown column 'dpt' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT SUM(`dpt`) AS `dpt`
+FROM `desa`
+WHERE `id_kec` = \'210\'
+AND `desa`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`dpt`) AS `dpt`
+FROM `desa`
+WHERE `id_kec` = \'210\'
+AND `desa`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`dpt`) AS `dpt`
+FROM `desa`
+WHERE `id_kec` = \'210\'
+AND `desa`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`dpt`) AS `dpt`
+FROM `desa`
+WHERE `id_kec` = :id_kec:
+AND `desa`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH/Model.php(203): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH/Controllers/Kecamatan.php(24): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Kecamatan->index('17')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-07-08 17:57:19 --> Undefined index: jml_dpt
+in APPPATH/Controllers/Kecamatan.php on line 26.
+ 1 APPPATH/Controllers/Kecamatan.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jml_dpt', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Kecamatan.php', 26, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Kecamatan->index('17')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-07-08 18:17:55 --> Division by zero
+in APPPATH/Controllers/Kecamatan.php on line 32.
+ 1 APPPATH/Controllers/Kecamatan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Kecamatan.php', 32, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Kecamatan->index('17')
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-07-08 18:23:41 --> array_rand(): Array is empty
+in APPPATH/Controllers/Kecamatan.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_rand(): Array is empty', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Kecamatan.php', 26, [...])
+ 2 APPPATH/Controllers/Kecamatan.php(26): array_rand([])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Kecamatan->index('17')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-07-08 18:23:42 --> array_rand(): Array is empty
+in APPPATH/Controllers/Kecamatan.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_rand(): Array is empty', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Kecamatan.php', 26, [...])
+ 2 APPPATH/Controllers/Kecamatan.php(26): array_rand([])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Kecamatan->index('17')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')

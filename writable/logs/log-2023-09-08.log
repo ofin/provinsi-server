@@ -1,0 +1,824 @@
+CRITICAL - 2023-09-08 01:25:11 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:11 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:11 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:11 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:11 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:12 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:12 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 223.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:12 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 278.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 278)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:36 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:36 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:36 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:36 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:36 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:36 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:37 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 223.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:25:37 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 278.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 278)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:28:34 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:28:34 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:28:35 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:28:35 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:28:35 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:28:35 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:28:35 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 223.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:28:35 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 278.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 278)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:33:57 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:33:57 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:33:57 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:33:57 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:33:57 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:33:58 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:33:58 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 223.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:33:58 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 278.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 278)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:34:36 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:34:36 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:34:36 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:34:37 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:34:37 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:34:37 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:34:37 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 223.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:34:37 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 278.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 278)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:37:46 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:37:46 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:37:46 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:37:46 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:37:46 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:37:46 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:37:47 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 223.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:37:47 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 278.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 278)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:45:42 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:45:42 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:45:42 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:45:43 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:45:43 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:45:43 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:45:43 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 223.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:45:43 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 278.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 278)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:46:40 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:46:41 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:46:41 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:46:41 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:46:41 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:46:41 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:46:42 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 223.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:46:42 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 278.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 278)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:47:35 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:47:35 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:47:35 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:47:35 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:47:35 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:47:36 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:47:36 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 223.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:47:36 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 278.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 278)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:23 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:23 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:23 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:23 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:23 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:24 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:24 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 223.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:24 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 278.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 278)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:40 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:40 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:40 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:40 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:41 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:41 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:41 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 223.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:49:41 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 278.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 278)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:51:14 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:51:14 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:51:14 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:51:15 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:51:15 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:51:15 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 223.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:51:15 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 278.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 278)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:59:03 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:59:03 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:59:04 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:59:04 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:59:04 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 91.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:59:04 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 140.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:59:04 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 223.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-08 01:59:04 --> Undefined array key "id_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 278.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 278)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')

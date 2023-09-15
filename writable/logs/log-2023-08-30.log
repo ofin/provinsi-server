@@ -1,0 +1,24 @@
+CRITICAL - 2023-08-30 16:01:58 --> Undefined array key "nama_kec"
+in APPPATH\Controllers\Admin\Pendataan.php on line 363.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(363): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kec"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 363)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-08-30 16:02:20 --> Undefined array key "nama_kec"
+in APPPATH\Controllers\Admin\Pendataan.php on line 363.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(363): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kec"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 363)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-08-30 16:03:04 --> Undefined array key "nama_kab"
+in APPPATH\Controllers\Admin\Pendataan.php on line 387.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(387): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kab"', 'D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\app\\Controllers\\Admin\\Pendataan.php', 387)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')

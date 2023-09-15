@@ -1,0 +1,94 @@
+CRITICAL - 2023-06-25 03:07:13 --> Class 'Config\AuthFilter' not found
+in SYSTEMPATH/Filters/Filters.php on line 166.
+ 1 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('tim', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-25 03:07:31 --> Class 'Config\AuthFilter' not found
+in SYSTEMPATH/Filters/Filters.php on line 166.
+ 1 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('tim', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-25 03:20:20 --> Undefined offset: 0
+in APPPATH/Controllers/Tim.php on line 23.
+ 1 APPPATH/Controllers/Tim.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Tim.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-25 03:47:13 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Database/BaseBuilder.php on line 2767.
+ 1 SYSTEMPATH/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH/BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH/Controllers/Admin/Tim.php(139): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Tim->delete()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tim))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-25 03:49:05 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Database/BaseBuilder.php on line 2767.
+ 1 SYSTEMPATH/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH/BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH/Controllers/Admin/Tim.php(139): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Tim->delete()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tim))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-25 03:49:22 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH/Database/BaseBuilder.php on line 2767.
+ 1 SYSTEMPATH/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH/BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH/Controllers/Admin/Tim.php(139): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Tim->delete()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tim))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+ERROR - 2023-06-25 04:00:10 --> mysqli_sql_exception: Unknown column 'deleted_at' in 'where clause' in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `login` ...', 0)
+#1 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `login` ...')
+#2 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `login` ...')
+#3 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `login` ...', Array, false)
+#4 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Model.php(453): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 /Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Tim.php(141): CodeIgniter\BaseModel->delete(Array)
+#7 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Admin\Tim->delete()
+#8 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tim))
+#9 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/ofin/Dataku/_ Project/israfil/server/public/index.php(75): CodeIgniter\CodeIgniter->run()
+#11 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dat...')
+#12 {main}
+CRITICAL - 2023-06-25 04:00:10 --> Unknown column 'deleted_at' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `login` SET `deleted_at` = \'2023-06-25 04:00:10\'
+WHERE `username` IN (\'Marwansyah1\')
+AND `deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `login` SET `deleted_at` = \'2023-06-25 04:00:10\'
+WHERE `username` IN (\'Marwansyah1\')
+AND `deleted_at` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `login` SET `deleted_at` = \'2023-06-25 04:00:10\'
+WHERE `username` IN (\'Marwansyah1\')
+AND `deleted_at` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `login` SET `deleted_at` = :deleted_at:
+WHERE `username` IN :username:
+AND `deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH/Model.php(453): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 SYSTEMPATH/BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH/Controllers/Admin/Tim.php(141): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Tim->delete()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tim))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-25 19:03:41 --> Call to undefined function App\Controllers\directory_map()
+in APPPATH/Controllers/Home.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->dokumentasi()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')

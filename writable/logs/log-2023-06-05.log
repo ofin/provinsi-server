@@ -1,0 +1,12 @@
+CRITICAL - 2023-06-05 17:23:35 --> There is no primary key defined when trying to make insert.
+in SYSTEMPATH/Model.php on line 294.
+ 1 SYSTEMPATH/Model.php(294): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH/BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH/Controllers/User.php(62): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->create()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')

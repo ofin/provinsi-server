@@ -1,0 +1,36 @@
+CRITICAL - 2023-06-15 14:22:53 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 242.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(212): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiTWFyd2Fuc3lhaCJ9', false, 'HS256')
+ 2 APPPATH/Controllers/Login.php(37): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-15 15:31:39 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 242.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(212): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiTWFyd2Fuc3lhaCJ9', false, 'HS256')
+ 2 APPPATH/Controllers/Login.php(35): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-15 15:31:57 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 242.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(212): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiTWFyd2Fuc3lhaCJ9', false, 'HS256')
+ 2 APPPATH/Controllers/Login.php(35): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-15 15:32:00 --> key must be a string when using hmac
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 242.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(212): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiTWFyd2Fuc3lhaCJ9', false, 'HS256')
+ 2 APPPATH/Controllers/Login.php(35): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')

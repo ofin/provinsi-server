@@ -1,0 +1,64 @@
+CRITICAL - 2023-07-06 12:06:20 --> Division by zero
+in APPPATH/Controllers/Admin/Pendataan.php on line 69.
+ 1 APPPATH/Controllers/Admin/Pendataan.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php', 69, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->pieChartBpjs()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-07-06 12:06:20 --> Division by zero
+in APPPATH/Controllers/Admin/Pendataan.php on line 109.
+ 1 APPPATH/Controllers/Admin/Pendataan.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php', 109, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->pieChartPln()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-07-06 12:06:20 --> Division by zero
+in APPPATH/Controllers/Admin/Pendataan.php on line 147.
+ 1 APPPATH/Controllers/Admin/Pendataan.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php', 147, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->pieChartPdam()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-07-06 12:06:20 --> Division by zero
+in APPPATH/Controllers/Admin/Pendataan.php on line 202.
+ 1 APPPATH/Controllers/Admin/Pendataan.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php', 202, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-07-06 12:06:33 --> Division by zero
+in APPPATH/Controllers/Admin/Pendataan.php on line 69.
+ 1 APPPATH/Controllers/Admin/Pendataan.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php', 69, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->pieChartBpjs()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-07-06 12:06:33 --> Division by zero
+in APPPATH/Controllers/Admin/Pendataan.php on line 109.
+ 1 APPPATH/Controllers/Admin/Pendataan.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php', 109, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->pieChartPln()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-07-06 12:06:33 --> Division by zero
+in APPPATH/Controllers/Admin/Pendataan.php on line 147.
+ 1 APPPATH/Controllers/Admin/Pendataan.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php', 147, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->pieChartPdam()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-07-06 12:06:33 --> Division by zero
+in APPPATH/Controllers/Admin/Pendataan.php on line 202.
+ 1 APPPATH/Controllers/Admin/Pendataan.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php', 202, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->pieChartBantuan()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')

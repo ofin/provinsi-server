@@ -1,0 +1,118 @@
+CRITICAL - 2023-07-20 20:19:46 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 440.
+ 1 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 2 APPPATH\Controllers\Tim\Pendataan.php(193): CodeIgniter\BaseModel->delete(null)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-20 20:20:07 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 440.
+ 1 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 2 APPPATH\Controllers\Tim\Pendataan.php(193): CodeIgniter\BaseModel->delete(null)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-20 20:29:22 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 440.
+ 1 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 2 APPPATH\Controllers\Tim\Pendataan.php(194): CodeIgniter\BaseModel->delete(null)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-20 20:36:22 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 440.
+ 1 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 2 APPPATH\Controllers\Tim\Pendataan.php(194): CodeIgniter\BaseModel->delete(null)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-20 20:37:10 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 440.
+ 1 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 2 APPPATH\Controllers\Tim\Pendataan.php(194): CodeIgniter\BaseModel->delete(null)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-20 20:37:28 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 440.
+ 1 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 2 APPPATH\Controllers\Tim\Pendataan.php(194): CodeIgniter\BaseModel->delete(null)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-20 20:48:45 --> Unclosed '{' on line 13
+in APPPATH\Controllers\Tim\Pendataan.php on line 215.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\app\\Controllers\\Tim\\Pendataan.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Tim\\Pendataan')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Tim\\Pendataan')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Tim\\Pendataan', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-20 21:07:17 --> Undefined array key "no_kk"
+in APPPATH\Controllers\Tim\Pendataan.php on line 193.
+ 1 APPPATH\Controllers\Tim\Pendataan.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_kk"', 'D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\app\\Controllers\\Tim\\Pendataan.php', 193)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-20 21:08:35 --> Undefined array key "no_kk"
+in APPPATH\Controllers\Tim\Pendataan.php on line 193.
+ 1 APPPATH\Controllers\Tim\Pendataan.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_kk"', 'D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\app\\Controllers\\Tim\\Pendataan.php', 193)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-20 21:08:46 --> Undefined array key "no_kk"
+in APPPATH\Controllers\Tim\Pendataan.php on line 193.
+ 1 APPPATH\Controllers\Tim\Pendataan.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_kk"', 'D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\app\\Controllers\\Tim\\Pendataan.php', 193)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-20 21:15:33 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2767.
+ 1 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\Admin\Tim.php(197): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Tim->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tim))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-20 21:17:52 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2767.
+ 1 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\Admin\Tim.php(197): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Tim->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tim))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-20 21:19:50 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2767.
+ 1 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\Admin\Tim.php(197): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Tim->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tim))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')

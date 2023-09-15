@@ -1,0 +1,16 @@
+CRITICAL - 2023-09-04 17:36:08 --> array_rand(): Argument #1 ($array) cannot be empty
+in APPPATH\Controllers\Kabupaten.php on line 39.
+ 1 APPPATH\Controllers\Kabupaten.php(39): array_rand([])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Kabupaten->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-04 17:36:20 --> array_rand(): Argument #1 ($array) cannot be empty
+in APPPATH\Controllers\Kabupaten.php on line 39.
+ 1 APPPATH\Controllers\Kabupaten.php(39): array_rand([])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Kabupaten->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')

@@ -1,0 +1,3 @@
+CRITICAL - 2023-07-28 03:06:26 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 8388616 bytes)
+in APPPATH/Controllers/Tim/Pendataan.php on line 133.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

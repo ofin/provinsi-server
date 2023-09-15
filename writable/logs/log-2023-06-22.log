@@ -1,0 +1,183 @@
+CRITICAL - 2023-06-22 14:43:10 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 137.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(137): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Filters/TimFilter.php(41): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+ 3 SYSTEMPATH/Filters/Filters.php(173): App\Filters\TimFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('tim/pendataan', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 14:43:28 --> Decrypting: authentication failed.
+in SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php on line 137.
+ 1 SYSTEMPATH/Encryption/Handlers/OpenSSLHandler.php(137): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH/Filters/TimFilter.php(41): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+ 3 SYSTEMPATH/Filters/Filters.php(173): App\Filters\TimFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('tim/pendataan', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 17:43:31 --> "Dokumentasi harus berekstensi .jpg" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 329.
+ 1 SYSTEMPATH/Validation/Validation.php(329): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Dokumentasi harus berekstensi .jpg')
+ 2 SYSTEMPATH/Validation/Validation.php(179): CodeIgniter\Validation\Validation->processRules('errors', 'errors', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/Tim/Pendataan.php(60): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 17:43:39 --> "Dokumentasi harus berekstensi .jpg" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 329.
+ 1 SYSTEMPATH/Validation/Validation.php(329): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Dokumentasi harus berekstensi .jpg')
+ 2 SYSTEMPATH/Validation/Validation.php(179): CodeIgniter\Validation\Validation->processRules('errors', 'errors', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/Tim/Pendataan.php(60): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 17:47:38 --> "Dokumentasi harus berekstensi .jpg" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 329.
+ 1 SYSTEMPATH/Validation/Validation.php(329): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Dokumentasi harus berekstensi .jpg')
+ 2 SYSTEMPATH/Validation/Validation.php(179): CodeIgniter\Validation\Validation->processRules('errors', 'errors', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/Tim/Pendataan.php(63): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 17:48:17 --> "Dokumentasi harus berekstensi .jpg" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 329.
+ 1 SYSTEMPATH/Validation/Validation.php(329): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Dokumentasi harus berekstensi .jpg')
+ 2 SYSTEMPATH/Validation/Validation.php(179): CodeIgniter\Validation\Validation->processRules('errors', 'errors', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/Tim/Pendataan.php(63): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 17:49:10 --> "Dokumentasi harus berekstensi .jpg" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 329.
+ 1 SYSTEMPATH/Validation/Validation.php(329): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Dokumentasi harus berekstensi .jpg')
+ 2 SYSTEMPATH/Validation/Validation.php(179): CodeIgniter\Validation\Validation->processRules('errors', 'errors', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/Tim/Pendataan.php(63): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 17:49:48 --> "Dokumentasi harus berekstensi .jpg" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 329.
+ 1 SYSTEMPATH/Validation/Validation.php(329): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Dokumentasi harus berekstensi .jpg')
+ 2 SYSTEMPATH/Validation/Validation.php(179): CodeIgniter\Validation\Validation->processRules('errors', 'errors', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/Tim/Pendataan.php(63): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 17:52:32 --> "Dokumentasi harus berekstensi .jpg" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 329.
+ 1 SYSTEMPATH/Validation/Validation.php(329): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Dokumentasi harus berekstensi .jpg')
+ 2 SYSTEMPATH/Validation/Validation.php(179): CodeIgniter\Validation\Validation->processRules('errors', 'errors', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/Tim/Pendataan.php(63): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 18:08:02 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Controller.php on line 184
+in SYSTEMPATH/Validation/Validation.php on line 478.
+ 1 SYSTEMPATH/Controller.php(184): CodeIgniter\Validation\Validation->setRules(Object(CodeIgniter\Validation\Validation), [])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Controller->setValidator(Object(CodeIgniter\Validation\Validation), [])
+ 3 APPPATH/Controllers/Tim/Pendataan.php(63): CodeIgniter\Controller->validate(Object(CodeIgniter\Validation\Validation))
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 18:10:16 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Controller.php on line 184
+in SYSTEMPATH/Validation/Validation.php on line 478.
+ 1 SYSTEMPATH/Controller.php(184): CodeIgniter\Validation\Validation->setRules(Object(CodeIgniter\Validation\Validation), [])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Controller->setValidator(Object(CodeIgniter\Validation\Validation), [])
+ 3 APPPATH/Controllers/Tim/Pendataan.php(63): CodeIgniter\Controller->validate(Object(CodeIgniter\Validation\Validation))
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 18:11:07 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Controller.php on line 184
+in SYSTEMPATH/Validation/Validation.php on line 478.
+ 1 SYSTEMPATH/Controller.php(184): CodeIgniter\Validation\Validation->setRules(Object(CodeIgniter\Validation\Validation), [])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Controller->setValidator(Object(CodeIgniter\Validation\Validation), [])
+ 3 APPPATH/Controllers/Tim/Pendataan.php(66): CodeIgniter\Controller->validate(Object(CodeIgniter\Validation\Validation))
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 18:13:25 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Controller.php on line 184
+in SYSTEMPATH/Validation/Validation.php on line 478.
+ 1 SYSTEMPATH/Controller.php(184): CodeIgniter\Validation\Validation->setRules(Object(CodeIgniter\Validation\Validation), [])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Controller->setValidator(Object(CodeIgniter\Validation\Validation), [])
+ 3 APPPATH/Controllers/Tim/Pendataan.php(61): CodeIgniter\Controller->validate(Object(CodeIgniter\Validation\Validation))
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 18:13:32 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Controller.php on line 184
+in SYSTEMPATH/Validation/Validation.php on line 478.
+ 1 SYSTEMPATH/Controller.php(184): CodeIgniter\Validation\Validation->setRules(Object(CodeIgniter\Validation\Validation), [])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Controller->setValidator(Object(CodeIgniter\Validation\Validation), [])
+ 3 APPPATH/Controllers/Tim/Pendataan.php(61): CodeIgniter\Controller->validate(Object(CodeIgniter\Validation\Validation))
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 18:13:51 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Controller.php on line 184
+in SYSTEMPATH/Validation/Validation.php on line 478.
+ 1 SYSTEMPATH/Controller.php(184): CodeIgniter\Validation\Validation->setRules(Object(CodeIgniter\Validation\Validation), [])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Controller->setValidator(Object(CodeIgniter\Validation\Validation), [])
+ 3 APPPATH/Controllers/Tim/Pendataan.php(61): CodeIgniter\Controller->validate(Object(CodeIgniter\Validation\Validation))
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 18:14:25 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Controller.php on line 184
+in SYSTEMPATH/Validation/Validation.php on line 478.
+ 1 SYSTEMPATH/Controller.php(184): CodeIgniter\Validation\Validation->setRules(Object(CodeIgniter\Validation\Validation), [])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Controller->setValidator(Object(CodeIgniter\Validation\Validation), [])
+ 3 APPPATH/Controllers/Tim/Pendataan.php(61): CodeIgniter\Controller->validate(Object(CodeIgniter\Validation\Validation))
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 18:15:27 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, object given, called in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Controller.php on line 184
+in SYSTEMPATH/Validation/Validation.php on line 478.
+ 1 SYSTEMPATH/Controller.php(184): CodeIgniter\Validation\Validation->setRules(Object(CodeIgniter\Validation\Validation), [])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Controller->setValidator(Object(CodeIgniter\Validation\Validation), [])
+ 3 APPPATH/Controllers/Tim/Pendataan.php(61): CodeIgniter\Controller->validate(Object(CodeIgniter\Validation\Validation))
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-22 18:19:08 --> Undefined index: bantuan
+in APPPATH/Controllers/Tim/Pendataan.php on line 81.
+ 1 APPPATH/Controllers/Tim/Pendataan.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: bantuan', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Tim/Pendataan.php', 81, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')

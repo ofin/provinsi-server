@@ -1,0 +1,36 @@
+CRITICAL - 2023-06-21 15:19:48 --> Undefined index: images
+in APPPATH/Controllers/Tim/Pendataan.php on line 36.
+ 1 APPPATH/Controllers/Tim/Pendataan.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: images', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Tim/Pendataan.php', 36, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-21 15:25:49 --> Call to undefined function App\Controllers\Tim\directory_map()
+in APPPATH/Controllers/Tim/Pendataan.php on line 44.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-21 18:06:45 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH/Images/Handlers/GDHandler.php on line 251.
+ 1 SYSTEMPATH/Images/Handlers/GDHandler.php(251): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH/Controllers/Tim/Pendataan.php(45): CodeIgniter\Images\Handlers\GDHandler->save('/Users/ofin/Dataku/_ Project/israfil/server/public/uploads/453453/1.jpg', 50)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-21 19:24:21 --> date_default_timezone_set(): Timezone ID 'UTC+8' is invalid
+in SYSTEMPATH/CodeIgniter.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'date_default_timezone_set(): Timezone ID \'UTC+8\' is invalid', '/Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php', 197, [])
+ 2 SYSTEMPATH/CodeIgniter.php(197): date_default_timezone_set('UTC+8')
+ 3 FCPATH/index.php(63): CodeIgniter\CodeIgniter->initialize()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-21 19:24:28 --> date_default_timezone_set(): Timezone ID 'UTC+8' is invalid
+in SYSTEMPATH/CodeIgniter.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'date_default_timezone_set(): Timezone ID \'UTC+8\' is invalid', '/Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php', 197, [])
+ 2 SYSTEMPATH/CodeIgniter.php(197): date_default_timezone_set('UTC+8')
+ 3 FCPATH/index.php(63): CodeIgniter\CodeIgniter->initialize()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')

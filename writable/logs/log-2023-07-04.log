@@ -1,0 +1,360 @@
+ERROR - 2023-07-04 14:25:58 --> mysqli_sql_exception: Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`n...', 0)
+#1 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`n...')
+#2 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`n...')
+#3 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`n...', Array, false)
+#4 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+#7 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/ofin/Dataku/_ Project/israfil/server/public/index.php(75): CodeIgniter\CodeIgniter->run()
+#11 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dat...')
+#12 {main}
+CRITICAL - 2023-07-04 14:25:58 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = :id_kec:
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', [...], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+ERROR - 2023-07-04 14:26:02 --> mysqli_sql_exception: Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`n...', 0)
+#1 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`n...')
+#2 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`n...')
+#3 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`n...', Array, false)
+#4 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+#7 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/ofin/Dataku/_ Project/israfil/server/public/index.php(75): CodeIgniter\CodeIgniter->run()
+#11 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dat...')
+#12 {main}
+CRITICAL - 2023-07-04 14:26:02 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = :id_kec:
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', [...], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+ERROR - 2023-07-04 14:26:10 --> mysqli_sql_exception: Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`n...', 0)
+#1 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`n...')
+#2 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`n...')
+#3 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`n...', Array, false)
+#4 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+#7 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/ofin/Dataku/_ Project/israfil/server/public/index.php(75): CodeIgniter\CodeIgniter->run()
+#11 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dat...')
+#12 {main}
+CRITICAL - 2023-07-04 14:26:10 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = :id_kec:
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', [...], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+ERROR - 2023-07-04 14:26:21 --> mysqli_sql_exception: Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`n...', 0)
+#1 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`n...')
+#2 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`n...')
+#3 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`n...', Array, false)
+#4 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+#7 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/ofin/Dataku/_ Project/israfil/server/public/index.php(75): CodeIgniter\CodeIgniter->run()
+#11 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dat...')
+#12 {main}
+CRITICAL - 2023-07-04 14:26:21 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = :id_kec:
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', [...], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+ERROR - 2023-07-04 14:27:03 --> mysqli_sql_exception: Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`n...', 0)
+#1 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`n...')
+#2 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`n...')
+#3 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`n...', Array, false)
+#4 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+#7 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/ofin/Dataku/_ Project/israfil/server/public/index.php(75): CodeIgniter\CodeIgniter->run()
+#11 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dat...')
+#12 {main}
+CRITICAL - 2023-07-04 14:27:03 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = :id_kec:
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', [...], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+ERROR - 2023-07-04 14:28:37 --> mysqli_sql_exception: Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`n...', 0)
+#1 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`n...')
+#2 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`n...')
+#3 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`n...', Array, false)
+#4 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+#7 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/ofin/Dataku/_ Project/israfil/server/public/index.php(75): CodeIgniter\CodeIgniter->run()
+#11 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dat...')
+#12 {main}
+CRITICAL - 2023-07-04 14:28:37 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = :id_kec:
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', [...], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+ERROR - 2023-07-04 14:28:42 --> mysqli_sql_exception: Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`n...', 0)
+#1 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`n...')
+#2 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`n...')
+#3 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`n...', Array, false)
+#4 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+#7 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/ofin/Dataku/_ Project/israfil/server/public/index.php(75): CodeIgniter\CodeIgniter->run()
+#11 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dat...')
+#12 {main}
+CRITICAL - 2023-07-04 14:28:42 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = :id_kec:
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', [...], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+ERROR - 2023-07-04 14:28:58 --> mysqli_sql_exception: Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`n...', 0)
+#1 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`n...')
+#2 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`n...')
+#3 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`n...', Array, false)
+#4 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+#7 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/ofin/Dataku/_ Project/israfil/server/public/index.php(75): CodeIgniter\CodeIgniter->run()
+#11 /Users/ofin/Dataku/_ Project/israfil/server/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dat...')
+#12 {main}
+CRITICAL - 2023-07-04 14:28:58 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'provinsi.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'210\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = :id_kec:
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', [...], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/Admin/Pendataan.php(120): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')

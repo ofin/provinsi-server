@@ -1,0 +1,207 @@
+ERROR - 2023-07-26 04:06:00 --> mysqli_sql_exception: Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'konsel.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`n...', 0)
+#1 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`n...')
+#2 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`n...')
+#3 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`n...', Array, false)
+#4 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/app/Controllers/Admin/Pendataan.php(354): CodeIgniter\BaseModel->findAll()
+#7 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/public/index.php(75): CodeIgniter\CodeIgniter->run()
+#11 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dat...')
+#12 {main}
+CRITICAL - 2023-07-26 04:06:00 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'konsel.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'123\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'123\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'123\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = :id_kec:
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', [...], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/Admin/Pendataan.php(354): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/KONSEL/server/public/index.php')
+ERROR - 2023-07-26 04:22:43 --> mysqli_sql_exception: Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'konsel.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`n...', 0)
+#1 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`n...')
+#2 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`n...')
+#3 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`n...', Array, false)
+#4 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/app/Controllers/Admin/Pendataan.php(354): CodeIgniter\BaseModel->findAll()
+#7 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/public/index.php(75): CodeIgniter\CodeIgniter->run()
+#11 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dat...')
+#12 {main}
+CRITICAL - 2023-07-26 04:22:43 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'konsel.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'123\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'123\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'123\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = :id_kec:
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', [...], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/Admin/Pendataan.php(354): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/KONSEL/server/public/index.php')
+ERROR - 2023-07-26 04:22:54 --> mysqli_sql_exception: Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'konsel.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`n...', 0)
+#1 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`n...')
+#2 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`n...')
+#3 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`n...', Array, false)
+#4 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/app/Controllers/Admin/Pendataan.php(354): CodeIgniter\BaseModel->findAll()
+#7 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/public/index.php(75): CodeIgniter\CodeIgniter->run()
+#11 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dat...')
+#12 {main}
+CRITICAL - 2023-07-26 04:22:54 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'konsel.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'123\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'123\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'123\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = :id_kec:
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', [...], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/Admin/Pendataan.php(354): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/KONSEL/server/public/index.php')
+ERROR - 2023-07-26 04:38:29 --> mysqli_sql_exception: Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'konsel.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`n...', 0)
+#1 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`n...')
+#2 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`n...')
+#3 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`n...', Array, false)
+#4 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/app/Controllers/Admin/Pendataan.php(354): CodeIgniter\BaseModel->findAll()
+#7 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/public/index.php(75): CodeIgniter\CodeIgniter->run()
+#11 /Users/ofin/Dataku/_ Project/israfil/KONSEL/server/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dat...')
+#12 {main}
+CRITICAL - 2023-07-26 04:38:29 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'konsel.keluarga.nama_desa' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'123\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'123\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = \'123\'
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`no_kk`) AS `no_kk`, `id_desa`, `nama_desa`
+FROM `keluarga`
+WHERE `id_kec` = :id_kec:
+AND `keluarga`.`deleted_at` IS NULL
+GROUP BY `id_desa`', [...], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/Admin/Pendataan.php(354): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/KONSEL/server/public/index.php')
+CRITICAL - 2023-07-26 04:44:28 --> array_rand(): Array is empty
+in APPPATH/Controllers/Kecamatan.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_rand(): Array is empty', '/Users/ofin/Dataku/_ Project/israfil/KONSEL/server/app/Controllers/Kecamatan.php', 27, [...])
+ 2 APPPATH/Controllers/Kecamatan.php(27): array_rand([])
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Kecamatan->index('11')
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/KONSEL/server/public/index.php')
+CRITICAL - 2023-07-26 04:44:33 --> array_rand(): Array is empty
+in APPPATH/Controllers/Kecamatan.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_rand(): Array is empty', '/Users/ofin/Dataku/_ Project/israfil/KONSEL/server/app/Controllers/Kecamatan.php', 27, [...])
+ 2 APPPATH/Controllers/Kecamatan.php(27): array_rand([])
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Kecamatan->index('11')
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/KONSEL/server/public/index.php')
+CRITICAL - 2023-07-26 04:47:51 --> array_rand(): Array is empty
+in APPPATH/Controllers/Kecamatan.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_rand(): Array is empty', '/Users/ofin/Dataku/_ Project/israfil/KONSEL/server/app/Controllers/Kecamatan.php', 27, [...])
+ 2 APPPATH/Controllers/Kecamatan.php(27): array_rand([])
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Kecamatan->index('11')
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/KONSEL/server/public/index.php')

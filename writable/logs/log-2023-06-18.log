@@ -1,0 +1,24 @@
+CRITICAL - 2023-06-18 13:56:31 --> Key material must be a string, resource, or OpenSSLAsymmetricKey
+in VENDORPATH/firebase/php-jwt/src/Key.php on line 31.
+ 1 APPPATH/Filters/TimFilter.php(57): Firebase\JWT\Key->__construct(false, 'HS256')
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\TimFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('tim/pendataan', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-18 14:32:13 --> Array to string conversion
+in APPPATH/Controllers/Tim/Pendataan.php on line 24.
+ 1 APPPATH/Controllers/Tim/Pendataan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Tim/Pendataan.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')
+CRITICAL - 2023-06-18 20:30:31 --> Only variables should be passed by reference
+in APPPATH/Controllers/Tim/Pendataan.php on line 21.
+ 1 APPPATH/Controllers/Tim/Pendataan.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', '/Users/ofin/Dataku/_ Project/israfil/server/app/Controllers/Tim/Pendataan.php', 21, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Tim\Pendataan->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ofin/Dataku/_ Project/israfil/server/public/index.php')

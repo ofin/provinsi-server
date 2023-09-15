@@ -1,0 +1,54 @@
+CRITICAL - 2023-07-15 05:24:45 --> Cannot use [] for reading
+in APPPATH\Controllers\Admin\Pendataan.php on line 302.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartProgres()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-15 05:25:03 --> Cannot use [] for reading
+in APPPATH\Controllers\Admin\Pendataan.php on line 302.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartProgres()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-15 05:26:20 --> array_sum(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\Admin\Pendataan.php on line 303.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(303): array_sum('1104')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartProgres()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-15 05:28:47 --> Undefined array key "id_kec"
+in APPPATH\Controllers\Admin\Pendataan.php on line 299.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kec"', 'D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\app\\Controllers\\Admin\\Pendataan.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartProgres()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-15 05:30:20 --> Undefined array key "id_kec"
+in APPPATH\Controllers\Admin\Pendataan.php on line 299.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kec"', 'D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\app\\Controllers\\Admin\\Pendataan.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartProgres()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-15 05:31:20 --> Undefined array key "id_kec"
+in APPPATH\Controllers\Admin\Pendataan.php on line 299.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kec"', 'D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\app\\Controllers\\Admin\\Pendataan.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartProgres()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-15 05:51:40 --> array_sum(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\Admin\Pendataan.php on line 304.
+ 1 APPPATH\Controllers\Admin\Pendataan.php(304): array_sum('1104')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->pieChartProgres()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')

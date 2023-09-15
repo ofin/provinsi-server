@@ -1,0 +1,1148 @@
+ERROR - 2023-07-22 07:16:48 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Kecamatan.php(23): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Kecamatan->index('11')
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:16:48 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Kecamatan.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Kecamatan->index('11')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:16:48 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:16:48 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:16:48 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:16:48 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:16:49 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:16:49 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:16:49 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(250): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:16:49 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(250): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:16:49 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(349): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:16:49 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(349): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:16:50 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_kec`...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kec`...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kec`...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_kec`...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(322): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->chartActivityGauge()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:16:50 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(322): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->chartActivityGauge()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:17:03 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Kecamatan.php(23): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Kecamatan->index('11')
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:17:03 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Kecamatan.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Kecamatan->index('11')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:17:03 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:17:03 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:17:04 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:17:04 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:17:04 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:17:04 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:17:05 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(250): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:17:05 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(250): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:17:05 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(349): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:17:05 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(349): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:17:05 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_kec`...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kec`...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kec`...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_kec`...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(322): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->chartActivityGauge()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:17:05 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(322): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->chartActivityGauge()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:17:27 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Kecamatan.php(23): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Kecamatan->index('11')
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:17:27 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Kecamatan.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Kecamatan->index('11')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:17:27 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:17:27 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:17:28 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:17:28 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:17:28 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:17:28 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:17:29 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(250): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:17:29 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(250): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:17:29 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(349): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:17:29 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(349): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:17:29 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_kec`...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kec`...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kec`...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_kec`...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(322): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->chartActivityGauge()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:17:29 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(322): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->chartActivityGauge()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:18:24 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Kecamatan.php(23): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Kecamatan->index('11')
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:18:24 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Kecamatan.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Kecamatan->index('11')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:18:25 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:18:25 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:18:26 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:18:26 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:18:26 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:18:26 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(128): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChart()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:18:27 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(250): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:18:27 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(250): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->stackedColumnsChartBantuan()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:18:27 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(349): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:18:27 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(349): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->barDrilldown()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+ERROR - 2023-07-22 07:18:27 --> mysqli_sql_exception: Unknown column 'id_kab' in 'where clause' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_kec`...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kec`...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kec`...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_kec`...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Pendataan.php(322): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->chartActivityGauge()
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+CRITICAL - 2023-07-22 07:18:27 --> Unknown column 'id_kab' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = \'11\'
+AND `kecamatan`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_kec`
+FROM `kecamatan`
+WHERE `id_kab` = :id_kab:
+AND `kecamatan`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Pendataan.php(322): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Pendataan->chartActivityGauge()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')

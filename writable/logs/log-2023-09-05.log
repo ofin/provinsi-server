@@ -1,0 +1,351 @@
+CRITICAL - 2023-09-05 16:30:41 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 137.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(137): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Filters\AuthFilter.php(41): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+ 3 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('admin/tim', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-05 16:35:02 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Tim\Pendataan.php(48): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-05 18:53:05 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Tim\Pendataan.php(48): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+ERROR - 2023-09-05 19:45:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ofin'@'localhost' (using password: YES) in D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'ofin', '1234', 'sultra', 3306, '', 0)
+#1 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'marwan')
+#6 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('marwan')
+#7 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+#8 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'marwan')
+#5 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('marwan')
+#6 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+#7 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#10 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#11 {main}
+CRITICAL - 2023-09-05 19:45:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `login`.`username` = :login.username:', [...], false)
+ 3 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'marwan')
+ 5 APPPATH\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('marwan')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+ERROR - 2023-09-05 19:45:40 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ofin'@'localhost' (using password: YES) in D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'ofin', '1234', 'sultra', 3306, '', 0)
+#1 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'marwan')
+#6 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('marwan')
+#7 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+#8 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'marwan')
+#5 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('marwan')
+#6 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+#7 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#10 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#11 {main}
+CRITICAL - 2023-09-05 19:45:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `login`.`username` = :login.username:', [...], false)
+ 3 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'marwan')
+ 5 APPPATH\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('marwan')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+ERROR - 2023-09-05 19:45:50 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ofin'@'localhost' (using password: YES) in D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'ofin', '1234', 'sultra', 3306, '', 0)
+#1 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'marwan')
+#6 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('marwan')
+#7 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+#8 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'marwan')
+#5 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('marwan')
+#6 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+#7 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#10 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#11 {main}
+CRITICAL - 2023-09-05 19:45:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `login`.`username` = :login.username:', [...], false)
+ 3 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'marwan')
+ 5 APPPATH\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('marwan')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+ERROR - 2023-09-05 19:45:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ofin'@'localhost' (using password: YES) in D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'ofin', '1234', 'sultra', 3306, '', 0)
+#1 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'marwan')
+#6 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('marwan')
+#7 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+#8 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'marwan')
+#5 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('marwan')
+#6 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+#7 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#10 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#11 {main}
+CRITICAL - 2023-09-05 19:45:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `login`.`username` = :login.username:', [...], false)
+ 3 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'marwan')
+ 5 APPPATH\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('marwan')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+ERROR - 2023-09-05 19:46:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ofin'@'localhost' (using password: YES) in D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'ofin', '1234', 'sultra', 3306, '', 0)
+#1 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'ofinAdmin')
+#6 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('ofinAdmin')
+#7 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+#8 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'ofinAdmin')
+#5 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\app\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('ofinAdmin')
+#6 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+#7 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#10 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#11 {main}
+CRITICAL - 2023-09-05 19:46:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `login`.`username` = :login.username:', [...], false)
+ 3 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'ofinAdmin')
+ 5 APPPATH\Controllers\Auth.php(30): CodeIgniter\BaseModel->find('ofinAdmin')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->doLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-05 19:49:34 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Tim\Pendataan.php(48): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-05 19:56:06 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Tim\Pendataan.php(48): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+CRITICAL - 2023-09-05 20:19:39 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Tim\Pendataan.php(48): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')
+ERROR - 2023-09-05 21:30:49 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'ofin', '1234', 'sultra', 3306, '', 0)
+#1 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\app\Controllers\Tim\Pendataan.php(27): CodeIgniter\BaseModel->findAll()
+#7 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->index()
+#8 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+#9 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#11 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\app\Controllers\Tim\Pendataan.php(27): CodeIgniter\BaseModel->findAll()
+#6 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->index()
+#7 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+#8 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#10 D:\Marwan\Project\Pendataan\Provinsi\provinsi-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#11 {main}
+CRITICAL - 2023-09-05 21:30:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `keluarga`
+WHERE `username` = :username:
+AND `keluarga`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC', [...], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Tim\Pendataan.php(27): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Provinsi\\provinsi-server\\public\\index.php')

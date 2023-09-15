@@ -1,0 +1,79 @@
+ERROR - 2023-07-21 01:03:29 --> mysqli_sql_exception: Duplicate entry 'ofin89' for key 'PRIMARY' in D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ti...', 0)
+#1 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Marwan\Project\Pendataan\Konsel\konsel-server\app\Controllers\Admin\Tim.php(68): CodeIgniter\Model->insert(Array)
+#8 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Admin\Tim->insert()
+#9 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tim))
+#10 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Marwan\Project\Pendataan\Konsel\konsel-server\public\index.php(75): CodeIgniter\CodeIgniter->run()
+#12 D:\Marwan\Project\Pendataan\Konsel\konsel-server\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Proje...')
+#13 {main}
+CRITICAL - 2023-07-21 01:03:29 --> Duplicate entry 'ofin89' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tim` (`username`, `nama`, `id_kab`, `nama_kab`, `id_kec`, `nama_kec`, `id_desa`, `nama_desa`) VALUES (\'ofin89\', \'1234\', \'11\', \'Konawe Selatan\', \'124\', \'Andoolo\', \'1345\', \'Alangga\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tim` (`username`, `nama`, `id_kab`, `nama_kab`, `id_kec`, `nama_kec`, `id_desa`, `nama_desa`) VALUES (\'ofin89\', \'1234\', \'11\', \'Konawe Selatan\', \'124\', \'Andoolo\', \'1345\', \'Alangga\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tim` (`username`, `nama`, `id_kab`, `nama_kab`, `id_kec`, `nama_kec`, `id_desa`, `nama_desa`) VALUES (\'ofin89\', \'1234\', \'11\', \'Konawe Selatan\', \'124\', \'Andoolo\', \'1345\', \'Alangga\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tim` (`username`, `nama`, `id_kab`, `nama_kab`, `id_kec`, `nama_kec`, `id_desa`, `nama_desa`) VALUES (:username:, :nama:, :id_kab:, :nama_kab:, :id_kec:, :nama_kec:, :id_desa:, :nama_desa:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin\Tim.php(68): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin\Tim->insert()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tim))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-21 18:15:38 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tim\Pendataan.php on line 115.
+ 1 APPPATH\Controllers\Tim\Pendataan.php(115): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-21 18:17:25 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tim\Pendataan.php on line 115.
+ 1 APPPATH\Controllers\Tim\Pendataan.php(115): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-21 18:32:12 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tim\Pendataan.php on line 115.
+ 1 APPPATH\Controllers\Tim\Pendataan.php(115): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-21 18:34:39 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tim\Pendataan.php on line 115.
+ 1 APPPATH\Controllers\Tim\Pendataan.php(115): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-21 18:38:59 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tim\Pendataan.php on line 115.
+ 1 APPPATH\Controllers\Tim\Pendataan.php(115): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
+CRITICAL - 2023-07-21 18:52:19 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tim\Pendataan.php on line 115.
+ 1 APPPATH\Controllers\Tim\Pendataan.php(115): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tim\Pendataan->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tim\Pendataan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Marwan\\Project\\Pendataan\\Konsel\\konsel-server\\public\\index.php')
